@@ -1,0 +1,39 @@
+.parent{ 
+    background-color: rgb(240, 149, 113);
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    height: 60px;
+    position: sticky;
+    z-index: 1;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+.child{
+    position: relative;
+}
+.right {
+    position: relative;
+  }
+.left {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+img {
+    
+    display: block;
+    height: 350px;
+    width: 250px;
+    padding: 25px;
+  }
+#dd{
+    position: absolute;
+    left: 35vw;
+    top: 90vh;
+    height: 250px;
+    width: 400px;
+}
